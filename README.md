@@ -11,29 +11,24 @@ This Java program generates the **Fibonacci series** up to a user-specified numb
 - Calculates each Fibonacci term using the previous two terms.  
 - Lightweight and beginner-friendly Java program.
 
-## Logic of Fibonacci Program
+## Logic
+1. **Input**: Take the number of elements (`n`) from the user.  
+2. **Initialize**: Set `first = 0` and `second = 1`.  
+3. **Loop**: Run from 1 to `n`  
+   - Print the current `first` term.  
+   - Calculate `next = first + second`.  
+   - Update `first = second` and `second = next`.  
+4. Repeat until all `n` terms are printed.  
 
-The program generates the Fibonacci series up to a user-specified number of elements. The logic is as follows:
+**Example Flow (n = 5):**
 
-1. **Take input**  
-   - Ask the user to enter the number of terms (`n`) for the series.
-
-2. **Initialize the first two terms**  
-   -first = 0.
-   -second = 1.
-**Generate the series using a loop**
- **Loop from 1 to n**
-In each iteration:
-Print the current first term.
-**Calculate the next term:**
--next = first + second.
-
-
-**Update the terms for the next iteration:**
--first = second.
--second = next.
-**Repeat until all n terms are printed** 
-
+| Step | first | second | next | Output |
+|------|-------|--------|------|--------|
+| 1    | 0     | 1      | 1    | 0      |
+| 2    | 1     | 1      | 2    | 1      |
+| 3    | 1     | 2      | 3    | 1      |
+| 4    | 2     | 3      | 5    | 2      |
+| 5    | 3     | 5      | 8    | 3      |
 ## Output 
 <img width="465" height="81" alt="image" src="https://github.com/user-attachments/assets/d1da57cc-6aea-4e66-970f-1b7751554db1" />
 
