@@ -19,19 +19,19 @@ The program generates the Fibonacci series up to a user-specified number of elem
    - Ask the user to enter the number of terms (`n`) for the series.
 
 2. **Initialize the first two terms**  
-   first = 0.
-   second = 1.
-**Generate the series using a loop*
+   -first = 0.
+   -second = 1.
+**Generate the series using a loop**
  **Loop from 1 to n**
 In each iteration:
 Print the current first term.
-Calculate the next term:
-next = first + second
+**Calculate the next term:**
+-next = first + second.
 
 
 **Update the terms for the next iteration:**
-first = second
-second = next
+-first = second.
+-second = next.
 **Repeat until all n terms are printed** 
 
 ## Output 
